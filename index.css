@@ -1,0 +1,149 @@
+body{
+    background:url(./source/season.jpg);
+    background-blend-mode: multiply;
+    background-position:inherit;
+    background-size:cover;
+    background-repeat: repeat;
+    /* filter: blur(4px); */
+
+}
+
+.d-flex button{
+    margin: 10px;
+    padding-left: 15px;
+}
+
+.cart{
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 70px;
+    
+}
+.cart div{
+    margin: 20px;
+    flex-basis: 30%;
+    /* filter: drop-shadow( 0px 0px 10px);     */
+
+}
+.cart div:hover{
+    filter: drop-shadow( 0px 0px 10px black);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.02);
+    text-shadow: 2px 2px 2px red;
+}
+
+.modal1 img{
+
+   width:450px;
+}
+
+/* .mtb{
+    width: 100px;
+}
+
+.mom button{
+    list-style-type: none;
+} */
+
+.page{
+    margin: 100px;
+}
+.caro{
+    width: 1200px;
+    margin: 50px;
+    position: relative;
+    margin-left: 150px;
+    
+    
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    margin: 200px;
+    width:  350px;
+    top: 30%;
+    left: 30%;
+    transform: translate(-30%,-30%);
+    position: relative;
+    color: black;
+   
+    
+}
+
+.login h1{
+    position: relative;
+    margin: 100px;
+    width:  350px;
+    top: 30%;
+    left: 30%;
+    transform: translate(-30%,-30%);
+    color: black;
+
+}
+
+.login div{
+    position: relative;
+    margin: 0px 50px 50px 50px;
+    width:  350px;
+    top: 30%;
+    left: 30%;  
+    transform: translate(-30%,-30%);
+    color: black;
+}
+.login  div a{
+   
+    margin: 10px;
+    border: 1px solid black;
+    box-sizing:content-box;
+    padding: 10px;
+    
+}
+.login span{
+    position: relative;
+    margin: 30px;
+    width:  100px;
+    top: 10%;
+    left: 10%;  
+    transform: translate(-30%,-30%);
+    color: black;
+}
+ .login input{
+
+        font-size: 16px;
+        width: 100%;
+        padding: 15px 10px;
+        margin: 20px;
+        border: 1 solid black;
+        outline: none;
+        border-radius: 5px;
+        
+        }
+        .login  a{
+   
+            margin: 10px;
+            box-sizing:content-box;
+            padding: 10px;
+        }
+        .login div a:hover{
+            
+            box-shadow: 1px 1px 10px blue;
+            transition: .5s ease-in-out;
+             cursor: pointer;
+             transform: scale(1);
+
+        }
+        .login input:hover{
+            box-shadow: 1px 1px 10px blue;
+            transition: .5s ease-in-out;
+             cursor: text;
+             transform: scale(1.10);
+        }
+        
+        .login button{
+            margin: 20px;
+            padding: 5px 40px 5px 40px;
+        }
