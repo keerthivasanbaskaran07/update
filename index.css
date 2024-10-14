@@ -60,90 +60,125 @@ body{
     
     
 }
-.login {
+.login{
+    position: relative;
+    left: 200px;
+    height: 800px;
+    top: 150px;
+}
+.order{
     display: flex;
-    flex-direction: column;
-    margin: 200px;
-    width:  350px;
-    top: 30%;
-    left: 30%;
-    transform: translate(-30%,-30%);
-    position: relative;
-    color: black;
-   
-    
+    flex-direction:column;
+    margin-left: 150px;
+    width: 300px;
 }
-
-.login h1{
-    position: relative;
-    margin: 100px;
-    width:  350px;
-    top: 30%;
-    left: 30%;
-    transform: translate(-30%,-30%);
-    color: black;
-
+.order h1{
+    font-size: 50px;
+    margin-left: 45px;
+    margin-bottom: 50px;
+    }
+.order div{
+    font-size: 20px;
+    margin-left:30px;
+    margin-bottom: 50px;
 }
-
-.login div{
-    position: relative;
-    margin: 0px 50px 50px 50px;
-    width:  350px;
-    top: 30%;
-    left: 30%;  
-    transform: translate(-30%,-30%);
-    color: black;
-}
-.login  div a{
-   
+.order div a{
     margin: 10px;
     border: 1px solid black;
-    box-sizing:content-box;
-    padding: 10px;
+    box-sizing: content-box;
+    padding: 4px;
+}
+.order span{
+    font-size: 15px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+ } 
+ .order input{
+    padding: 15px 10px;
+    margin: 15px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
     
-}
-.login span{
-    position: relative;
-    margin: 30px;
-    width:  100px;
-    top: 10%;
-    left: 10%;  
-    transform: translate(-30%,-30%);
-    color: black;
-}
- .login input{
 
-        font-size: 16px;
-        width: 100%;
-        padding: 15px 10px;
-        margin: 20px;
-        border: 1 solid black;
-        outline: none;
-        border-radius: 5px;
-        
-        }
-        .login  a{
-   
-            margin: 10px;
-            box-sizing:content-box;
-            padding: 10px;
-        }
-        .login div a:hover{
+ }
+ .login a{
+    margin-left: 75px;
+    margin-bottom: 20px;
+
+ }
+ .order div a:hover{
             
-            box-shadow: 1px 1px 10px blue;
-            transition: .5s ease-in-out;
-             cursor: pointer;
-             transform: scale(1);
+    box-shadow: 0px 0px 10px  red;
+    transition: .5s ease-in-out;
+     cursor: pointer;
+     transform: scale(1);
+ }
+ .order input:hover{
+    box-shadow: 0px 0px 10px blue;
+    transition: .5s ease-in-out;
+     cursor: text;
+     transform: scale(1.10);
+}
+.order button{
+    margin: 20px;
+    padding:5px 40px 5px 40px;
+    margin-left: 30px;
+}
 
+
+ 
+ 
+ @media screen and (max-width:350px) {
+            .caro{
+                height: 200px;
+                width: 300px;
+                position: relative;
+                margin-left: 50px;
+            }
+            
         }
-        .login input:hover{
-            box-shadow: 1px 1px 10px blue;
-            transition: .5s ease-in-out;
-             cursor: text;
-             transform: scale(1.10);
+        @media screen and (orientation:portrait) {
+            .cart{
+                display: flex;
+                flex-direction: column;
+                margin-left: 10px;
+            }
+            
+        }
+        @media screen and (min-width:350px) {
+            .profile{
+                height: 100px;
+                width: 100px;
+
+            }
         }
         
-        .login button{
-            margin: 20px;
-            padding: 5px 40px 5px 40px;
+
+        /*@media screen and (max-width:320px) {
+            nav{
+                width: 1280px;
+            }
+            
         }
+        @media screen and (min-width:370px) {
+            nav{
+                width: 1350px;
+            }
+            
+        }
+          @media screen and (min-width:1440px) {
+            nav{
+                width: 1220px;
+            }
+            
+        }
+         @media screen and (min-width:350px) {
+            nav{
+                width: 545px;
+            }
+            
+        }  */
+
+         
