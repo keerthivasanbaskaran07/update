@@ -16,11 +16,8 @@
   <!---Navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">
-
-
-        </i> LAPTOPS</a></button>
-       
+      <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+      <a class="navbar-brand" href="#">LAPTOPS</a></button>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -28,13 +25,12 @@
         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">
-              <i class="fa-sharp fa-solid fa-house"></i> HOME</a>
+              <i class="fa-sharp fa-solid fa-house"></i>HOME</a>
           </li>
-          
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fa-solid fa-list"></i>
-             CATEGORIES
+              CATAGORIES
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
               <li><a class="dropdown-item" href="#">Laptops</a></li>
@@ -42,12 +38,10 @@
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Accessories</a></li>
             </ul>
-            <li class="nav-item">
-              <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping"></i> CART</a>
-            </li>
-            
           </li>
-          
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping"></i> CART</a>
+          </li>
         </ul>
         <form class="d-flex">
           <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
@@ -99,7 +93,7 @@
   <!--- card page-->
   <!--card 1-->
   <div class="cart">
-    <div>
+    <div class="one">
     <div class="card h-100 " style="width: 18rem;">
       <img src="./source/dell.webp" class="card-img-top" alt="...">
       <div class="card-body">
@@ -111,7 +105,7 @@
     </div>
     </div>
 <!--card 2-->
-    <div>
+    <div class="one">
     <div class="card h-100" style="width: 18rem;">
       <img src="./source/azusrog.jpg" class="card-img-top" alt="...">
       <div class="card-body">
@@ -123,7 +117,7 @@
     </div>
     </div>
     <!--card 3-->
-    <div>
+    <div class="one">
     <div class="card h-100" style="width: 18rem;">
       <img src="./source/omenlap1.webp" class="card-img-top" alt="...">
       <div class="card-body">
@@ -135,7 +129,7 @@
     </div>
   </div>
   <!--card 4-->
-  <div>
+  <div class="one">
     <div class="card h-100" style="width: 18rem;">
       <img src="./source/lenovo.jpg" class="card-img-top" alt="...">
       <div class="card-body">
@@ -147,7 +141,7 @@
     </div>
   </div>
   <!--card 5-->
-  <div>
+  <div class="one">
     <div class="card h-100" style="width: 18rem;">
       <img src="./source/hp.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
@@ -159,9 +153,9 @@
     </div>
   </div>
   <!--card 6-->
-  <div>
+  <div class="one">
     <div class="card h-100" style="width: 18rem;">
-      <img src="./source/acer1.jpg" class="card-img-top" alt="...">
+      <img src="./source/acer1.jpg" class="card-img-top " alt="...">
       <div class="card-body">
         <h5 class="card-title">ACER-PREDATOR 300</h5>
         <p class="card-text">Everything you aspire to.</p>
@@ -424,7 +418,7 @@
           <span><b>Or use your email password </b></span>
           <input type="email" placeholder="Email">
           <input type="password" placeholder="password">
-          <a href="#">Forget your password</a><br>
+          <a  class="forget" href="#">Forget your password</a><br>
           <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Cancel</button>
           <button type="button" class="btn btn-primary">Sign up</button>
 

@@ -1,10 +1,12 @@
 body{
     background:url(./source/season.jpg);
     background-blend-mode: multiply;
-    background-position:inherit;
+    background-position:center;
     background-size:cover;
-    background-repeat: repeat;
+    background-repeat:repeat;
+    /* background-color: white; */
     /* filter: blur(4px); */
+    
 
 }
 
@@ -128,57 +130,291 @@ body{
 }
 
 
- 
- 
- @media screen and (max-width:350px) {
+ @media screen and (max-width:1024px) {
+    .caro{
+       width: 800px;
+       margin-left: 125px;
+       
+       
+    }
+}
+@media screen and (max-width:1024px) {
+    .order{
+    display: flex;
+    flex-direction:column;
+    margin-left: 10px;
+    width: 300px;
+       
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .caro{
+        width: 600px;
+        margin-left: 100px;
+        
+     }
+     .one{
+        flex-basis: 20%;
+     }
+}
+@media screen and (max-width:768px) {
+    
+    .profile{
+        position: absolute;
+        
+    
+     }
+     .order{
+        
+        width: 300px;
+        position: relative;
+        right: 30%;
+        bottom: 20%;
+        
+           
+        }
+        .order h1{
+            font-size: 25px;
+            margin-left: 1px;
+            margin-bottom: 30px;
+            position: relative;
+            left: 30%;
+            }
+    
+            .order div{
+                font-size: 30px;
+                margin-left:1px;
+                margin-bottom: 50px;
+                display: flex;
+                position: relative;
+                left: 10%;
+            }
+            .order span{
+                position: relative;
+                left: 2%;
+            }
+            .order input{
+                padding: 15px 10px;
+                margin: 15px;
+                width: 100%;
+                outline: none;
+                border-radius: 5px;
+                margin-left: 2px;
+                position: relative;
+                left: 0%;
+                
+            
+             }
+             .order .forget{
+                position: relative;
+                right: 0%;
+             }
+            .order button{
+                margin: 20px;
+                padding:5px 40px 5px 40px;
+                margin-left: 40px;
+                position: relative;
+                right: 5%;
+            }
+
+        .page{
+            margin: 100px;
+        position: relative;
+        margin-left: 160px;
+        }
+    }
+        @media screen and (max-width:426px) {
             .caro{
-                height: 200px;
+                width: 300px;
+                margin-left: 75px;
+                
+            }
+            .cart{
+                margin-left: 30px;
+                
+            }
+            .page{
+                margin: 100px;
+            position: relative;
+            margin-left: 120px;
+            }
+
+            .modal1 img{
+
+                width:380px;
+             }
+             .profile{
+                position: absolute;
+                
+            
+             }
+             .order{
+                
                 width: 300px;
                 position: relative;
-                margin-left: 50px;
-            }
+                right: 45%;
+                bottom: 20%;
+                
+                   
+                }
+                .order h1{
+                    font-size: 25px;
+                    margin-left: 1px;
+                    margin-bottom: 30px;
+                    position: relative;
+                    left: 30%;
+                    }
             
+                    .order div{
+                        font-size: 30px;
+                        margin-left:1px;
+                        margin-bottom: 50px;
+                        display: flex;
+                        position: relative;
+                        right: 5%;
+                    }
+                    .order span{
+                        position: relative;
+                        right: 15%;
+                    }
+                    .order input{
+                        padding: 15px 10px;
+                        margin: 15px;
+                        width: 100%;
+                        outline: none;
+                        border-radius: 5px;
+                        margin-left: 2px;
+                        position: relative;
+                        right: 15%;
+                        
+                    
+                     }
+                     .order .forget{
+                        position: relative;
+                        left: 0%;
+                     }
+                    .order button{
+                        margin: 20px;
+                        padding:5px 40px 5px 40px;
+                        margin-left: 40px;
+                        position: relative;
+                        right: 0%;
+                    }
+
         }
-        @media screen and (orientation:portrait) {
+        @media screen and (max-width:376px) {
+            .caro{
+                width: 300px;
+                margin-left: 30px;
+                
+            }
             .cart{
-                display: flex;
-                flex-direction: column;
-                margin-left: 10px;
+                margin-left: 5px;
             }
+            .page{
+                margin: 100px;
+            position: relative;
+            margin-left: 110px;
+            }
+            .modal1 img{
+
+                width:320px;
             
-        }
-        @media screen and (min-width:350px) {
+            }
             .profile{
-                height: 100px;
-                width: 100px;
+                position: absolute;
+                
+            
+             }
+             .order{
+                
+                width: 300px;
+                position: relative;
+                right: 60%;
+                bottom: 20%;
+                
+                   
+                }
+                .order h1{
+                    font-size: 25px;
+                    margin-left: 1px;
+                    margin-bottom: 30px;
+                    position: relative;
+                    left: 30%;
+                    }
+            
+                    .order div{
+                        font-size: 30px;
+                        margin-left:1px;
+                        margin-bottom: 50px;
+                        display: flex;
+                        position: relative;
+                        right: 5%;
+                    }
+                    .order span{
+                        position: relative;
+                        right: 15%;
+                    }
+                    .order input{
+                        padding: 15px 10px;
+                        margin: 15px;
+                        width: 100%;
+                        outline: none;
+                        border-radius: 5px;
+                        margin-left: 2px;
+                        position: relative;
+                        right: 15%;
+                        
+                    
+                     }
+                     .order .forget{
+                        position: relative;
+                        left: 0%;
+                     }
+                    .order button{
+                        margin: 20px;
+                        padding:5px 40px 5px 40px;
+                        margin-left: 40px;
+                        position: relative;
+                        right: 0%;
+                    }
+                }
+
+            @media screen and (max-width:375px){
 
             }
-        }
+          
+
         
+    
+                
 
-        /*@media screen and (max-width:320px) {
-            nav{
-                width: 1280px;
-            }
-            
-        }
-        @media screen and (min-width:370px) {
-            nav{
-                width: 1350px;
-            }
-            
-        }
-          @media screen and (min-width:1440px) {
-            nav{
-                width: 1220px;
-            }
-            
-        }
-         @media screen and (min-width:350px) {
-            nav{
-                width: 545px;
-            }
-            
-        }  */
 
-         
+
+
+ /* }
+ @media screen and (max-width:320px) {
+    nav{
+       position: relative;
+       width: 185px;
+    }
+ }
+ @media screen and (max-width:320px) {
+    .one{
+        display: flex;
+        width: 900px;
+    }
+        
+    }
+   
+    @media screen and (max-width:320px) {
+        .modal1{
+            height: 100px;
+         }
+        } */
+       
+           
+       
+        
